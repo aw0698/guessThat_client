@@ -1,0 +1,25 @@
+.alertsContainer {
+    z-index: 1;
+    right: 0;
+    top: 0;
+}
+
+.spinnerContainer {
+    z-index: 2;
+    top: 0;
+    padding: 5rem;
+    background-color: rgba(120,118,121,0.2);
+}
+
+.spinnerContainer .spinner-border {
+    height: 10rem;
+    width: 10rem;
+    border-width: 6px;
+}
+
+@media (max-width: 800px) {
+    .alertsContainer {
+        position: relative!important;
+    }
+
+}
